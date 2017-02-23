@@ -1,0 +1,28 @@
+<html>
+<head><title>Machine Problem 4</title>
+<script type= "text/javascript" language= "javascript">
+<!--
+	function grade(){
+		var retValgrade = prompt("Enter your Grade: ","Grade")
+		if((retValgrade <=100) && (retValgrade >=50)){
+		document.write("Congratulations! You Passed!")
+		}
+			else if((retValgrade <=49) && (retValgrade >=1)){
+
+				document.write("Sorry, You failed")
+			}else {
+				document.write("Invalid Grade")
+			}setTimeout(function(){
+   window.location.reload(1);
+}, 5000);
+		}
+
+	 
+
+//-->
+</script>
+</head>
+<body>
+<input type = "button" value = "Click here to enter grade" onclick="grade()"/>
+</body>
+</html>
